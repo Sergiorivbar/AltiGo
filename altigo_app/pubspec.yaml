@@ -1,0 +1,48 @@
+name: altigo_app
+description: AltiGo - mountain hiking routes app (Flutter client)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Networking
+  dio: ^5.4.3
+
+  # Maps (topographic / mountain maps)
+  mapbox_maps_flutter: ^2.2.0
+
+  # Real-time GPS tracking
+  geolocator: ^12.0.0
+
+  # Monetization — full-screen interstitial ads
+  google_mobile_ads: ^5.1.0
+
+  # Payments — Stripe in test mode
+  flutter_stripe: ^11.1.0
+
+  # Secure JWT storage
+  flutter_secure_storage: ^9.2.2
+
+  # Photo capture / upload
+  image_picker: ^1.1.2
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
